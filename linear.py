@@ -8,17 +8,14 @@ class LinearSearch:
         Perform a linear search for the target element.
         Returns the index if found, otherwise -1.
         """
-        for i in range(len(self.data)):  # Using a traditional for loop with index
+        for i in range(len(self.data)): 
             if self.data[i] == target:
-                return i  # Return index if element is found
-        return -1  # Element not found
+                return i 
+        return -1 
 
-
-# Creating an object of the LinearSearch class
 numbers = [10, 25, 36, 47, 58, 69, 80]
 search_obj = LinearSearch(numbers)
 
-# Taking user input for the search element
 target = int(input("Enter number to search: "))
 result = search_obj.search_element(target)
 

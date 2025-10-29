@@ -425,7 +425,7 @@ class BrewTimeApp:
         login.grid_rowconfigure(3, weight=1)
         login.grid_columnconfigure(1, weight=1)
 
-        tk.Label(
+        tk.Label( 
             login, text="Admin Login", font=("Arial", 18, "bold"),
             fg=self.text_color, bg="#E6F0FA"
         ).grid(row=0, column=0, columnspan=2, pady=10)
