@@ -1,11 +1,11 @@
-#while loop
+# while loop
 # x=15
 # while x >  10:
 #     print (x)
 #     x = x - 1
 # print('test finish')    
 
-#break and continue statement
+# break and continue statement
 
 # for i in range(1,10):
 #     if i ==6:
@@ -17,7 +17,7 @@
 #         continue
 #     print(i)
         
-#exercise 1
+# exercise 1
 # import random
 # option = 'yes'
 # while option == 'yes':
@@ -32,9 +32,9 @@
 #        print(' correct the answer')
 #     option = input ('Enter your option yes or no:')
 
-#Exercise 2 h.w
+# Exercise 2 h.w
 
-#Exercise 3 
+# Exercise 3 
 # username = 'steph'
 # password = '132'
 # input_username = input ('Enter a username')
@@ -47,10 +47,10 @@
 # else:
 #     print('Error Message')
 
-#Exercise 4 
+# Exercise 4 
 
-#programming construct in python(string and list). pdf
-#exercise h.w
+# programming construct in python(string and list). pdf
+# exercise h.w
 
 # str = 'WisdomC'
 # print(str[0])
@@ -99,7 +99,7 @@
 
 # calculator()
 
-#slicing **
+# slicing **
 
 # str= 'wisdomc collage'
 # print(str[1:6])
@@ -108,13 +108,13 @@
 # print(str[-1:-15:-2])
 # print(str[::-1])
 
-#Multiline string
+# Multiline string
 # message="""
 # Never gonna give you up
 # Never gonna let you down """
 # print(message)
 
-#String operations
+# String operations
 # str1 = 'Hello'
 # str2 = 'WisdonC'
 # str3 = 'Hello'
@@ -130,10 +130,10 @@
 # for index in school_name:
 #      print(index)
 # print(len(school_name))
-#String Membership test
+# String Membership test
 # print ('C' in school_name)
 
-#Exercise 1
+# Exercise 1
 # word = input('Enter a word')
 # if len(word) == 2:
 #     wholenumber = int(input('Enter the whole number:'))
@@ -143,22 +143,22 @@
 # else:
 #     print('Enter, please enter two words')
 
-#Exercise 2
+# Exercise 2
 # str = input('Enter a string')
 # if ('a' in str) or ('e'in str) or ('i'in str) or ('o'in str) or ('u'in str):
 #      print('string has vowel character')
 # else:
 #     print('String has not vowel character')
 
-#Exercise 3
+# Exercise 3
 # str = input('Enter a string : ')
 # result = str[0]+str[len(str)//2] = str[-1]
 # print(result)
 
-#Exercise 4 h.w
-#Exercose 5 h.w [:3]
+# Exercise 4 h.w
+# Exercose 5 h.w [:3]
 
-#length of a list
+# length of a list
 # color = ['green','yellow','red','pink']
 # print(color)
 # print(color[0])
@@ -222,16 +222,16 @@
 # print(sum(list))
 
 
-#exercise 1 h.w
+# exercise 1 h.w
 
-#exercise 2
+# exercise 2
 # list1 = [5, 20, 15, 20, 25, 50, 20]
 # for index in list1:
 #     if index == 20:
 #         list1.remove(index)
 # print(list1)
 
-#exeercise 3 h.w
+# exeercise 3 h.w
 # dec_no = int(input('Enter a deximal number(0-255): '))
 # while dec_no <0 or dec_no>255:
 #     dec_no= int(input('Enter a deximal number(0-255): '))
@@ -250,7 +250,7 @@
 #     bstring = bstring + str(bit)
 # print('Binary representation is : ', bstring)
 
-#a = [[1, 2, 3], [4, 5, 6], [34,55,12]]
+# a = [[1, 2, 3], [4, 5, 6], [34,55,12]]
 #     for i in index:
 #         print(i)
 # print(a[0])
@@ -266,13 +266,13 @@
 #     print(a[i][j], end=' ')
 # print()
 
-#exercise 5 h.w
-#exercise 1and2 2d list
+# exercise 5 h.w
+# exercise 1and2 2d list
 
 
-#Tuple, Set and dictionary pdf.file
+# Tuple, Set and dictionary pdf.file
 
-#Tuple 
+# Tuple 
 # num_tuple=(10,11,20,25.45)
 # print(num_tuple)
 
@@ -360,7 +360,7 @@
 
 
 
-#Week5
+# Week5
 # sample_set = [ 'Mark','jessa',25,278.4]
 # print(sample_set)
 
@@ -441,21 +441,21 @@
 # print(common_element)
  
 # sample_set = {"Yellow", "Orange", "Black"}
-#sample_list = ["Blue", "Green", "Red"]
+# sample_list = ["Blue", "Green", "Red"]
 # if 'Yellow' in sample_set:
 #     sample_set.remove('Yellow')
 #     print('already removed',sample_set)
 # sample_set.update(sample_list)
 # print (sample_set)
 
-#Dictionaries
+# Dictionaries
 # person = {"name":"jessa","country":"USA","telephone":"1178"}
 # print(person.get('telephone'))
 # print(person.keys())
 # print(person.values())
 # print(person.items())
 # print(person.get('name'))
-#for key in person:
+# for key in person:
 #     print(key,":",person.get(key))
 #     print(key,":",person[key])
 # for key_value in person.items():
@@ -491,7 +491,7 @@
 # student_dict = {**student_dict1, **student_dict2, **student_dict3}
 # print(student_dict)
 # dict1={'jessa':70,'Emma':55}
-#dict2=dict1
+# dict2=dict1
 # dict2=dict1.copy()
 # dict2.update({'jessa':90})
 # print(dict2)
@@ -532,9 +532,9 @@
 # print('Maximum :',max(dict)) 
 # print('Minimum :',min(dict))
 
-#all any read kah homework slide (87)
+# all any read kah homework slide (87)
 
-#Function in phython
+# Function in phython
 # def add():
 #     a = 10 
 #     b = 2
@@ -702,7 +702,7 @@
 # if __name__ == "__main__":
 #     main()
 
-#global_var = 5
+# global_var = 5
 # def function1():
 #     global global_var
 #     global_var = 555
@@ -785,7 +785,7 @@
 #     for row in reader:
 #         print(row)
 
-#Exception
+# Exception
 
 # try:
 #     numerator = 10
@@ -864,7 +864,7 @@
 # obj = C('SYW','17')
 # obj.display()
 
-#instance methods
+# instance methods
 # class student:
 #     def __init__(self,name,age):
 #         self.name = name
@@ -955,14 +955,14 @@
 # emp.company_info('Google', 'Atlanta')
 # emp.employee_info(12000,'Machine Learning')
 
-#slide 31 exercise
+# slide 31 exercise
 # class Vehicle:
 #     def Vehicle_info(self):
 #         print('Inside Vehicle class
 
-#exercise page 54 and page 75
+# exercise page 54 and page 75
 
-#Polymorphism
+# Polymorphism
 
 # import tkinter as tk
 # root = tk.Tk()
@@ -1040,7 +1040,7 @@
 # tree.insert('','end',values=('New York','2024-12-20','$800') )
 # tree.pack(pady=20)
 
-#function totopen a new orm for adding an item
+# function totopen a new orm for adding an item
 # def open_add_form():
 
 #     add_window = tk.Toplevel(s) #creating a new popup window
@@ -1071,8 +1071,8 @@
 #         else:
 #             messagebox.showerror('Error', 'All fields must be filled!')
 
-    # btn_submit=tk.Button(add_window,text='Add',command=add_item)
-    # btn_submit.grid(row=3,columnspan=2,pady=10)
+#     btn_submit=tk.Button(add_window,text='Add',command=add_item)
+#     btn_submit.grid(row=3,columnspan=2,pady=10)
 
 # btn_open_form = tk.Button (s, text='Add Data', command=open_add_form)
 # btn_open_form.pack(pady=10)
@@ -1104,7 +1104,7 @@
 #     entry_price.grid(row=2, column=1, padx=10, pady=5)
 #     entry_price.insert(0, values[2])
 
-#function to update item
+# function to update item
 #     def update_item():
 #         new_dest=entry_dest.get()
 #         new_date=entry_date.get()
@@ -1121,7 +1121,7 @@
 # btn_open_form = tk.Button (s, text='Edit Data', command=open_edit_form)
 # btn_open_form.pack(pady=10)
 
-#Function to delete data
+# Function to delete data
 # def delete_item():
 #     selected_item=tree.selection()
 #     if not selected_item:
@@ -1135,7 +1135,7 @@
 #     btn_delete=tk.button(s,text='Delete destination', command=delete_item)
 #     btn_delete.pack(pady=50)
 
-#Spinbox
+# Spinbox
 # import tkinter as tk
 # from tkinter import ttk
 # root = tk.Tk()

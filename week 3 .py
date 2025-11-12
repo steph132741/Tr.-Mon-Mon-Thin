@@ -133,42 +133,39 @@
 
 # #exercise 1
 
-for i in range (1,13):
-    for j in range(2,13):
-        print(f'{i}x {j}= {i*j}')
-    print()
+# for i in range (1,13):
+#     for j in range(2,13):
+#         print(f'{i}x {j}= {i*j}')
+#     print()
 
-#exercise 2
-Pattern (a)
-for i in range(1,11):
-    for j in range (i):
-        print('*',end='')
-    print()
+# #exercise 2
+# Pattern (a)
+# for i in range(1,11):
+#     for j in range (i):
+#         print('*',end='')
+#     print()
 
-Pattern (b)
-num_rows_b = 10
-for i in range(num_rows_b, 0, -1):
-    for j in range(i):
-        print("*", end="")
-    print() 
+# Pattern (b)
+# num_rows_b = 10
+# for i in range(num_rows_b, 0, -1):
+#     for j in range(i):
+#         print("*", end="")
+#     print() 
 
-Pattern (c)
-num_rows_c = 10
-for i in range(num_rows_c, 0, -1):
-    for j in range(num_rows_c - i):
-        print(" ", end="")
-    for k in range(i):
-        print("*", end="")
-    print()
+# Pattern (c)
+# num_rows_c = 10
+# for i in range(num_rows_c, 0, -1):
+#     for j in range(num_rows_c - i):
+#         print(" ", end="")
+#     for k in range(i):
+#         print("*", end="")
+#     print()
 
-Pattern (d)
-num_rows_d = 10
-for i in range(1, num_rows_d + 1):
-    for j in range(num_rows_d - i):
-        print(" ", end="")
-    for k in range(i):
-        print("*", end="")
-    print()
-
-
-
+# Pattern (d)
+# num_rows_d = 10
+# for i in range(1, num_rows_d + 1):
+#     for j in range(num_rows_d - i):
+#         print(" ", end="")
+#     for k in range(i):
+#         print("*", end="")
+#     print()

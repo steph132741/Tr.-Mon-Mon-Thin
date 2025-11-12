@@ -159,4 +159,3 @@
 # print('The modulus dicition of two numbers',mod)
 # pow=num_1**num_2
 # print('The powr of number',pow)
-
